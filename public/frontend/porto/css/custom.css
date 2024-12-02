@@ -1,0 +1,83 @@
+.c-image
+{
+
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+    transition: 300ms;
+}
+.c-image:hover
+{
+    scale: 1.02;
+}
+
+@media (max-width: 700px) {
+    .c-image
+    {
+        display: none;
+    }
+}
+
+.bg-color-blue-1
+{
+  background-color: #1a2a50 !important;
+}
+
+
+.bg-color-blue-2
+{
+    background-color: #2a4a86 !important;
+}
+
+.bg-color-blue-3
+{
+    background-color: #30569a !important;
+}
+
+.bg-color-blue-4
+{
+    background-color: #3762ad !important;
+}
+.bg-color-blue-5
+{
+    background-color: #eef0f4 !important;
+}
+.bg-color-before-blue:before {
+    background-color: #eef0f4 !important;
+}
+.bg-color-after-blue:after {
+    background-color: #e5e7ec !important;
+}
+.bg-color-after-gray:after {
+    background-color: #d6dff5 !important;
+}
+.box-shadow-custom-1:before
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.33;
+    content: '';
+    box-shadow: 0 30px 90px #2d4179;
+    transition: all 0.2s ease-in-out;
+}
+
+.bg-color-gray-1
+{
+    background-color: #eef0f4 !important;
+}
+.bg-color-gray-2
+{
+    background-color: #e5e7ec !important;
+}
+.text-p-custom
+{
+    color: #e5e2e8;
+}
+
+
+
+/*dont forget to meadia the logo images in the end of home */
