@@ -14439,4 +14439,18 @@ ul::-webkit-scrollbar-thumb:hover {
     height: 100%;
     background-color: rgba(35, 34, 34, 0.5); /* Adjust the last value for opacity */
 }
+.logo-img-mobile
+{
+    display: none;
+}
 
+@media (max-width: 600px) {
+    .logo-img-mobile
+    {
+        display: block;
+    }
+    .logo-img
+    {
+        display: none;
+    }
+}

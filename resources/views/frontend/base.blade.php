@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{asset('frontend/logo/Logo.png')}}" >
+    <link rel="icon" type="image/x-icon" href="{{asset('frontend/logo/logo-title.png')}}" >
 {{--    <link rel="apple-touch-icon" href="{{asset('frontend/img/apple-touch-icon.png')}}">--}}
 
     <!--    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">-->

@@ -30,7 +30,10 @@
      style="background-color: #17243E !important;" id="ftco-navbar">
     <div class="container " >
          <div style="position: relative;">
-        <a class="logo" href="{{route('home')}}"  ><img class="logo-img" src="{{asset('frontend/logo/Logo.png')}}" ></a>
+        <a class="logo" href="{{route('home')}}"  >
+            <img class="logo-img" src="{{asset('frontend/logo/Logo.png')}}" >
+            <img class="logo-img-mobile" src="{{asset('frontend/logo/mobile.png')}}" width="70" height="70">
+        </a>
          </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
                 aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
