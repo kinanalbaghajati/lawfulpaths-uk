@@ -580,17 +580,17 @@ html[dir="rtl"] .slider-container .line-pre-title {
 /*
 * Real Word Stories
 */
-.real-word-stories:before {
-		content: '';
-		position: absolute;
-		display: block;
-		background-color: #fafafc;
-		top: -75px;
-		width: 200%;
-		z-index: 21;
-		height: 75px;
-		transform: rotate(-1deg);
-}
+/*.real-word-stories:before {*/
+/*		content: '';*/
+/*		position: absolute;*/
+/*		display: block;*/
+/*		background-color: #fafafc;*/
+/*		top: -75px;*/
+/*		width: 200%;*/
+/*		z-index: 21;*/
+/*		height: 75px;*/
+/*		transform: rotate(-1deg);*/
+/*}*/
 
 @media (max-width: 1199px) {
 		.real-word-stories:before {
@@ -667,9 +667,9 @@ html[dir="rtl"] .slider-container .line-pre-title {
 		padding: 45px 0 45px 40px;
 }
 
-.real-word-stories .custom-testimonial-container .custom-testimonial blockquote p, .real-word-stories .custom-testimonial-container .custom-testimonial blockquote h4 {
-		font-family: Poppins;
-}
+/*.real-word-stories .custom-testimonial-container .custom-testimonial blockquote p, .real-word-stories .custom-testimonial-container .custom-testimonial blockquote h4 {*/
+/*		font-family: Poppins;*/
+/*}*/
 
 .real-word-stories .custom-testimonial-container .custom-testimonial .testimonial-author strong {
 		font-size: 18px;

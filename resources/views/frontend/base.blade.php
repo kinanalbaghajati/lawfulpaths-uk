@@ -69,6 +69,8 @@
 {{--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>--}}
 <script src="j{{asset('frontend/js/google-map.js')}}"></script>
 <script src="{{asset('frontend/js/main.js')}}"></script>
+<script> window.chtlConfig = { chatbotId: "7369635175" } </script>
+<script async data-id="7369635175" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
 
 </body>
 </html>

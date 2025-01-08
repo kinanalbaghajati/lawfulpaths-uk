@@ -44,3 +44,13 @@ Route::get('/contact-us', function () {
 Route::get('/FAQ', function () {
     return view('frontend.faq');
 })->name('faq');
+
+
+//----------------- services ------------------------
+
+Route::get('/work-visa', function () {
+    return view('frontend.services.work-visa');
+})->name('work-visa');
+Route::get('/family-visa', function () {
+    return view('frontend.services.family-visa');
+})->name('family-visa');

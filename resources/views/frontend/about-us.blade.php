@@ -1,6 +1,11 @@
 @extends('frontend.base')
 @section('content')
+    <link rel="stylesheet" href="{{asset('frontend/porto/css/theme-elements.css')}}">
 
+    {{--    <link rel="stylesheet" href="{{asset('frontend/porto/css/demos/demo-business-consulting-2.css')}}">--}}
+
+    <!-- Skin CSS -->
+    <link id="skinCSS" rel="stylesheet" href="{{asset('frontend/porto/css/skins/skin-business-consulting-2.css')}}">
     <section class="hero-wrap hero-wrap-2"
              style="background-image: url('{{asset('frontend/icons-images/about-us.jpg')}}');"
              data-stellar-background-ratio="0.5">
@@ -37,7 +42,7 @@
                         </div>
                         <div class="text">
                             <h2 style="color: whitesmoke !important;">Your journey , Our priority</h2>
-                            <p>  prioritizing your needs and guiding you through your process with expertise.</p>
+                            <p> prioritizing your needs and guiding you through your process with expertise.</p>
                         </div>
                     </div>
                 </div>
@@ -56,10 +61,10 @@
         </div>
     </section>
     <section class="ftco-section ftco-no-pb ftco-no-pt">
-        <div class="container">
+        <div class="container" >
             <div class="row no-gutters">
-                <div class="col-md-6 d-flex align-items-stretch">
-                    <div class="img img-3 w-100 d-flex justify-content-center align-items-center"
+                <div class="col-md-6 d-flex align-items-stretch shadow">
+                    <div class="img img-3 w-100 d-flex justify-content-center align-items-center "
                          style="background-image: url({{asset('frontend/icons-images/about-usver.jpg')}}); position: relative;">
                     </div>
                 </div>
@@ -67,38 +72,49 @@
                     <div class=" px-3 px-md-5 py-5 shadow">
                         <div class="heading-section">
                             <span class="subheading">Welcome to EuroLegal UK</span>
-                            <h2 class="mb-3">Why to Put Trust Your Trust In EuroLegal UK</h2>
+                            <h3 class="mb-3" style="line-height: 36px">Need expert guidance to navigate the complexities
+                                of UK immigration?</h3>
 
-                            <p>Trust your immigration journey to EuroLegal UK, where expertise meets dedication.
+                            <p> EuroLegale based in London and Dubai, specializes in assisting individuals and
+                                businesses worldwide with tailored immigration solutions.
                             </p>
-                            <p>
-                                Benefit
-                                from our tailored guidance, proven track record, and commitment to ensuring a smooth and
-                                successful visa application process.
-                               </p>
                         </div>
 
-                        <div class="row">
+                        <div class="row py-0">
 
-                            <div class="col-lg-6">
+                            <div class="col-lg-12">
                                 <div class="services d-flex w-100">
                                     <div class="icon d-flex align-items-center justify-content-center">
                                         <span class="flaticon-discount"></span>
                                     </div>
                                     <div class="text pl-2">
-                                        <h2>Great Discount</h2>
-                                        <p>Unbeatable savings for exceptional value</p>
+                                        <h2>Understand Your Needs</h2>
+                                        <p>Share your immigration concerns with us, and we’ll identify the best solution
+                                            tailored to your specific requirements.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-12">
                                 <div class="services d-flex w-100">
                                     <div class="icon d-flex align-items-center justify-content-center">
                                         <span class="flaticon-lawyer"></span>
                                     </div>
                                     <div class="text pl-2">
-                                        <h2>Expert Team</h2>
-                                        <p>Offering unparalleled value and savings.</p>
+                                        <h2>Comprehensive Case Review</h2>
+                                        <p>Our Immigration Associates will analyze your case, addressing any gaps and
+                                            inconsistencies through our step-by-step process.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="services d-flex w-100">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="flaticon-lawyer"></span>
+                                    </div>
+                                    <div class="text pl-2">
+                                        <h2>Move Forward with Confidence</h2>
+                                        <p>Trust our experts to guide you every step of the way, ensuring your
+                                            immigration challenges are handled with professionalism and care.</p>
                                     </div>
                                 </div>
                             </div>
@@ -110,8 +126,24 @@
             </div>
         </div>
     </section>
-
-    <section class="ftco-counter ftco-section ftco-no-pt mt-4 ftco-no-pb img py-2" id="section-counter">
+{{--    <section class="ftco-section ftco-no-pb ftco-no-pt">--}}
+{{--    <div class="container py-3 ">--}}
+{{--        <div class="row justify-content-start">--}}
+{{--            <div class="col-lg-12">--}}
+{{--                <article>--}}
+{{--                    <div class="card border-0 border-radius-0 mb-3 shadow">--}}
+{{--                        <div class="card-body  z-index-1">--}}
+{{--                            <div class="card-body p-0">--}}
+{{--                                <h3 class="card-title " style="line-height: 36px"> At EuroLegale , we’re committed to turning complex immigration processes into stress-free journeys &nbsp; Let’s get started today!</h3></h4>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </article>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--    </section>--}}
+    <section class="ftco-counter ftco-section ftco-no-pt  ftco-no-pb img py-4" id="section-counter">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch counter-wrap ftco-animate">
@@ -157,10 +189,46 @@
             </div>
         </div>
     </section>
-    <div class="py-4">
-        @include('frontend.partials.CallToAction')
-    </div>
+
+    <section class="ftco-section ftco-no-pb ftco-no-pt">
+        <div class="container py-1 ">
+            <div class="row justify-content-start">
+                <div class="col-lg-12">
+                    <article>
+                        <div class="card border-0 border-radius-0 mb-3 shadow">
+                            <div class="card-body  z-index-1">
+                                <div class="card-body p-0">
+                                    <h3 class="card-title " style="line-height: 36px"> At EuroLegale , we’re committed to turning complex immigration processes into stress-free journeys &nbsp; Let’s get started today!</h3></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <div>
+            <div class="container py-4 mt-1   rounded">
+                <section class="cta mb-5 shadow-lg rounded " style="background: url('{{asset('frontend/icons-images/cta.jpg')}}') center/cover no-repeat;">
+                    <div class="cta-content ">
+                        <div class="cta-text">
+                            <h3 style="color: #ececec !important;font-family: PT Sans, sans-serif !important;">Apply for Your Visa Today!</h3>
+                            <p style="color: #efefef !important;">Make your travel dreams a reality with our seamless visa application process!.</p>
+                        </div>
+                        <p class="mb-0 phone pl-md-2">
+                            <a href="#" class="btn btn-primary py-3 px-5" style="font-size: 16px">Get a Free Assessment</a>
+                        </p>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
 
     @include('frontend.partials.light-box')
+
+
+
 
 @endsection
