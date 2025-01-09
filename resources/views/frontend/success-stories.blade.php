@@ -13,6 +13,7 @@
     <link id="skinCSS" rel="stylesheet" href="{{asset('frontend/porto/css/skins/skin-business-consulting-2.css')}}">
 
 
+    <div  style="background-color: #FFFFFF">
 
 
     <section class="hero-wrap hero-wrap-2"
@@ -33,10 +34,10 @@
         <div class="container">
             <div class="row justify-content-between pt-5 mb-2">
                 <div class="col-lg-6 position-relative">
-                    <div class="custom-testimonial-container bg-color-light mb-5">
+                    <div class="custom-testimonial-container bg-color-light mb-5 shadow">
                         <div class="testimonial custom-testimonial testimonial-style-2 mb-0">
                             <div
-                                class="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
+                                class="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1 shadow">
                                 <img src="{{asset('frontend/images/staff-3.jpg')}}" alt="Bullseye" class="rounded">
                                 {{--                                    <a href="demo-business-consulting-2-cases-detail.html" class="d-block btn btn-primary custom-button-testimonial-right text-center text-uppercase text-decoration-none border-0 p-0 font-weight-semibold p-absolute">read more</a>--}}
                             </div>
@@ -58,10 +59,10 @@
                     </div>
                 </div>
                 <div class="col-lg-6 position-relative">
-                    <div class="custom-testimonial-container bg-color-light mb-5">
+                    <div class="custom-testimonial-container bg-color-light mb-5 shadow">
                         <div class="testimonial custom-testimonial testimonial-style-2 mb-0">
                             <div
-                                class="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
+                                class="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1 shadow">
                                 <img src="{{asset('frontend/images/staff-1.jpg')}}" alt="Bullseye" class="rounded">
                                 {{--                                    <a href="demo-business-consulting-2-cases-detail.html" class="d-block btn btn-primary custom-button-testimonial-right text-center text-uppercase text-decoration-none border-0 p-0 font-weight-semibold p-absolute">read more</a>--}}
                             </div>
@@ -80,10 +81,10 @@
                     </div>
                 </div>
                 <div class="col-lg-6 position-relative">
-                    <div class="custom-testimonial-container bg-color-light mb-5">
+                    <div class="custom-testimonial-container bg-color-light mb-5 shadow">
                         <div class="testimonial custom-testimonial testimonial-style-2 mb-0">
                             <div
-                                class="d-none  d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
+                                class="d-none  d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1 shadow">
                                 <img src="{{asset('frontend/images/staff-2.jpg')}}" alt="Bullseye" class="rounded ">
 
                                 {{--                                    <a href="demo-business-consulting-2-cases-detail.html" class="d-block btn btn-primary custom-button-testimonial-right text-center text-uppercase text-decoration-none border-0 p-0 font-weight-semibold p-absolute">read more</a>--}}
@@ -105,10 +106,10 @@
                     </div>
                 </div>
                 <div class="col-lg-6 position-relative">
-                    <div class="custom-testimonial-container bg-color-light mb-5">
-                        <div class="testimonial custom-testimonial testimonial-style-2 mb-0">
+                    <div class="custom-testimonial-container bg-color-light mb-5 shadow">
+                        <div class="testimonial custom-testimonial testimonial-style-2 mb-0 ">
                             <div
-                                class="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
+                                class="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1 shadow">
                                 <img src="{{asset('frontend/images/staff-4.jpg')}}" alt="Bullseye" class="rounded">
                             </div>
                             <blockquote class="px-0 pb-0">
@@ -148,5 +149,6 @@
 
             </section>
         </div>
+    </div>
     </div>
 @endsection

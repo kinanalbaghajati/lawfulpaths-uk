@@ -85,7 +85,7 @@
                             <div class="col-lg-12">
                                 <div class="services d-flex w-100">
                                     <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="flaticon-discount"></span>
+                                        <img src="{{asset('frontend/icons-images/needs.png')}}" width="50" height="50">
                                     </div>
                                     <div class="text pl-2">
                                         <h2>Understand Your Needs</h2>
@@ -97,7 +97,7 @@
                             <div class="col-lg-12">
                                 <div class="services d-flex w-100">
                                     <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="flaticon-lawyer"></span>
+                                        <img src="{{asset('frontend/icons-images/case.png')}}" width="50" height="50">
                                     </div>
                                     <div class="text pl-2">
                                         <h2>Comprehensive Case Review</h2>
@@ -109,7 +109,7 @@
                             <div class="col-lg-12">
                                 <div class="services d-flex w-100">
                                     <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="flaticon-lawyer"></span>
+                                        <span class="flaticon-lawyer" style="font-size: 46px"></span>
                                     </div>
                                     <div class="text pl-2">
                                         <h2>Move Forward with Confidence</h2>
@@ -190,15 +190,15 @@
         </div>
     </section>
 
-    <section class="ftco-section ftco-no-pb ftco-no-pt">
-        <div class="container py-1 ">
+    <section class="ftco-section ftco-no-pb ftco-no-pt" >
+        <div class="container  " >
             <div class="row justify-content-start">
                 <div class="col-lg-12">
                     <article>
-                        <div class="card border-0 border-radius-0 mb-3 shadow">
+                        <div class="card border-0 border-radius-0 mb-3 shadow " style="background-color: #163057FF ">
                             <div class="card-body  z-index-1">
                                 <div class="card-body p-0">
-                                    <h3 class="card-title " style="line-height: 36px"> At EuroLegale , we’re committed to turning complex immigration processes into stress-free journeys &nbsp; Let’s get started today!</h3></h4>
+                                    <h3 class="card-title " style="line-height: 42px;color: whitesmoke!important;font-size: 24px"> At EuroLegale , we’re committed to turning complex immigration processes into stress-free journeys &nbsp; Let’s get started today!</h3></h4>
                                 </div>
                             </div>
                         </div>

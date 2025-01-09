@@ -210,14 +210,14 @@
             <div class="col-md-12">
                 <div class="container-fluid py-3 mt-4 ml-4 shadow rounded px-4"
                      style="border: 3px solid #d7a742;background-color: #d8ae56">
-                    <h4 style="color: whitesmoke!important;">Key Considerations for UK Family Visas :</h4>
+                    <h3 style="color: whitesmoke!important;">Key Considerations for UK Family Visas :</h3>
 
                     <div class="row">
                         <div class="col-md-4">
                             <ul  style="color: rgba(245,245,245,0.85)!important;">
-                                <li class="py-2"><h5  style="color: rgba(245,245,245,0.85)!important;">Immigration Health Surcharge (IHS) :</h5>
+                                <li class="py-2"><h5  style="color: white!important;">Immigration Health Surcharge (IHS) :</h5>
                                     <ul>
-                                        <li>Applicants are required to pay the IHS to access healthcare in the UK.
+                                        <li style="color: white!important;">Applicants are required to pay the IHS to access healthcare in the UK.
                                         </li>
 
                                     </ul>
@@ -227,9 +227,9 @@
                         </div>
                         <div class="col-md-4">
                             <ul  style="color: rgba(245,245,245,0.85)!important;">
-                                <li class="py-2"><h5  style="color: rgba(245,245,245,0.85)!important;">Public Funds :</h5>
+                                <li class="py-2"><h5  style="color: white!important;">Public Funds :</h5>
                                     <ul>
-                                        <li>Family visa holders are typically not allowed to claim public funds.
+                                        <li style="color: white!important;">Family visa holders are typically not allowed to claim public funds.
                                         </li>
 
                                     </ul>
@@ -239,9 +239,9 @@
                         </div>
                         <div class="col-md-4">
                             <ul  style="color: rgba(245,245,245,0.85)!important;">
-                                <li class="py-2"><h5  style="color: rgba(245,245,245,0.85)!important;">Dependents :</h5>
+                                <li class="py-2"><h5  style="color: white!important;">Dependents :</h5>
                                     <ul>
-                                        <li>Children may apply as dependents on a parent’s family visa application.
+                                        <li style="color: white!important;">Children may apply as dependents on a parent’s family visa application.
                                         </li>
 
                                     </ul>

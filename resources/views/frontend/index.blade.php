@@ -74,8 +74,9 @@
                     <h2>What We Cover</h2>
                 </div>
             </div>
-            <div class="d-flex flex-column flex-sm-row">
-                <div class=" d-flex align-items-stretch ftco-animate">
+{{--            <div class="d-flex flex-column flex-sm-row">--}}
+            <div class="row">
+                <div class=" col-md-3 d-flex align-items-stretch ftco-animate">
                     <div class="services-2 text-center">
                         <div class="icon-wrap">
                             <div class="mini-icon d-flex align-items-center justify-content-center">
@@ -91,7 +92,7 @@
                     </div>
 
                 </div>
-                <div class=" d-flex align-items-stretch ftco-animate">
+                <div class=" col-md-3 d-flex align-items-stretch ftco-animate">
                     <div class="services-2 text-center">
                         <div class="icon-wrap">
                             <div class="mini-icon d-flex align-items-center justify-content-center">
@@ -102,10 +103,10 @@
                             </div>
                         </div>
                         <h2>Family Visa</h2>
-                        <a href="#" class="learn-more p-2" style="margin-top: -10%">learn More</a>
+                        <a href="{{route('family-visa')}}" class="learn-more p-2" style="margin-top: -10%">learn More</a>
                     </div>
                 </div>
-                <div class=" d-flex align-items-stretch ftco-animate">
+                <div class="  col-md-3 d-flex align-items-stretch ftco-animate">
                     <div class="services-2 text-center">
                         <div class="icon-wrap">
                             <div class="icon-wrap">
@@ -121,7 +122,7 @@
                         <a href="#" class="learn-more p-2" style="margin-top: -10%">learn More</a>
                     </div>
                 </div>
-                <div class=" d-flex align-items-stretch ftco-animate">
+                <div class=" col-md-3  d-flex align-items-stretch ftco-animate">
                     <div class="services-2 text-center">
                         <div class="icon-wrap">
                             <div class="mini-icon d-flex align-items-center justify-content-center">
@@ -132,22 +133,22 @@
                             </div>
                         </div>
                         <h2>Work Visa</h2>
-                        <a href="#" class="learn-more p-2" style="margin-top: -10%">learn More</a>
+                        <a href="{{route('work-visa')}}" class="learn-more p-2" style="margin-top: -10%">learn More</a>
                     </div>
                 </div>
-                <div class=" d-flex align-items-stretch ftco-animate">
-                    <div class="services-2 text-center">
-                        <div class="icon-wrap">
-                            <div class="mini-icon d-flex align-items-center justify-content-center">
-                                <img src="{{asset('frontend/icons-images/family.png')}}" width="30" height="30">
-                            </div>
-                            <div class="icon d-flex align-items-center justify-content-center">
-                                <img src="{{asset('frontend/icons-images/family.png')}}" width="90" height="90">
-                            </div>
-                        </div>
-                        <h2>Asylum </h2>
-                        <a href="#" class="learn-more p-2" style="margin-top: -10%">learn More</a>
-                    </div>
+                <div class=" col-md-3 d-flex align-items-stretch ftco-animate">
+{{--                    <div class="services-2 text-center">--}}
+{{--                        <div class="icon-wrap">--}}
+{{--                            <div class="mini-icon d-flex align-items-center justify-content-center">--}}
+{{--                                <img src="{{asset('frontend/icons-images/family.png')}}" width="30" height="30">--}}
+{{--                            </div>--}}
+{{--                            <div class="icon d-flex align-items-center justify-content-center">--}}
+{{--                                <img src="{{asset('frontend/icons-images/family.png')}}" width="90" height="90">--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <h2>Asylum </h2>--}}
+{{--                        <a href="#" class="learn-more p-2" style="margin-top: -10%">learn More</a>--}}
+{{--                    </div>--}}
                 </div>
 
             </div>
