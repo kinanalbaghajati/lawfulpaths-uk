@@ -14045,6 +14045,8 @@ ul::-webkit-scrollbar-thumb:hover {
     animation: fadeIn 1s ease;
 }
 
+
+
 .cta h2 {
     font-size: 2.5rem;
     margin-bottom: 10px;
@@ -14278,7 +14280,8 @@ ul::-webkit-scrollbar-thumb:hover {
     display: none;
 }
 @media (max-width: 700px) {
-    .service-mobile::before {
+    .service-mobile::before
+    {
         content: "";
         position: absolute;
         top: 0;
@@ -14287,7 +14290,6 @@ ul::-webkit-scrollbar-thumb:hover {
         height: 100%;
         background-color: rgba(35, 34, 34, 0.5); /* Adjust the last value for opacity */
     }
-
     .font-h
     {
         font-size: 22px;
@@ -14324,10 +14326,10 @@ ul::-webkit-scrollbar-thumb:hover {
         position: inherit;
         margin-top: 40%;
     }
-
-    .dropdown {
+    .dropdown
+    {
         list-style: none;
-        height: 200px;
+        height: 200px !important;
         z-index: 999;
         display: none;
         border-radius: 3px;
@@ -14340,9 +14342,8 @@ ul::-webkit-scrollbar-thumb:hover {
         overflow-x: hidden;
         transition: ease 0.3ms;
     }
-
-
-    .dropdown li {
+    .dropdown li
+    {
         display: block;
         padding: 2px 8px;
         border-bottom: #eae8e8 solid 0.3px;
@@ -14357,12 +14358,10 @@ ul::-webkit-scrollbar-thumb:hover {
 
 
     }
-
     .close-icon
     {
         display: block;
     }
-
     .logo-img-footer
     {
         display: none;
@@ -14381,8 +14380,6 @@ ul::-webkit-scrollbar-thumb:hover {
         width:auto;
         margin-bottom: 10px;
     }
-
-
 
 }
 

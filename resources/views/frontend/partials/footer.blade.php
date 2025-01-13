@@ -33,8 +33,8 @@
                             <li><span class="icon fa fa-map marker"></span><span class="text">203 Fake St. Mountain View</span>
                             </li>
                             <li class="mt-3"><a href="#"><span class="icon fa fa-phone"></span><span
-                                        class="text">+2 392 3929 210</span></a></li>
-                            <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">info@yourdomain.com</span></a>
+                                        class="text">+44 2031 310212</span></a></li>
+                            <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">Fadoualegal@gmail.com</span></a>
                             </li>
                         </ul>
                     </div>

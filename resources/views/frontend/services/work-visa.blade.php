@@ -17,7 +17,7 @@
     </section>
 
     <section class="section py-5">
-        <div class="row px-5">
+        <div class="row px-5"   >
             <div class="col-md-8">
                 <div class="container mt-4 shadow rounded" style="border:3px solid #1d3f73!important;">
                     <div class="d-flex justify-content-start px-2">
@@ -199,7 +199,7 @@
         <div class="container py-4 mt-1   rounded">
             <section class="cta mb-5 shadow-lg rounded " style="background: url('{{asset('frontend/icons-images/cta.jpg')}}') center/cover no-repeat;">
                 <div class="cta-content ">
-                    <div class="cta-text">
+                    <div class="cta-text" style="text-align: center">
                         <h3 style="color: #ececec !important;font-family: PT Sans, sans-serif !important;">Apply for Your Visa Today!</h3>
                         <p style="color: #efefef !important;">Contact us today to begin your work visa application!.</p>
                     </div>

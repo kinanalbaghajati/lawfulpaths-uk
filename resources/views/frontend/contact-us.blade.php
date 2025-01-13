@@ -35,7 +35,7 @@
                                         <span class="fa fa-phone" style="font-size: 40px;color: #f6c65e"></span>
                                     </div>
                                     <div class="text">
-                                        <p><span>Phone:</span> <a href="tel://1234567920">+ 5654 9858 98</a></p>
+                                        <p><span>Phone:</span> <a href="tel://1234567920">+44 2031 310212</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@
                                         <span class="fa fa-paper-plane " style="font-size: 40px;color: #f6c65e"></span>
                                     </div>
                                     <div class="text">
-                                        <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                                        <p><span>Email:</span> <a href="mailto:info@yoursite.com">Fadoualegal@gmail.com</a></p>
                                     </div>
                                 </div>
                             </div>

@@ -10,9 +10,9 @@
             <div class="col-md-5 d-flex align-items-center">
                 <p class="mb-0 phone pl-md-2">
                     <a href="#" class="mr-4 " style="font-size: 16px"><span class="fa fa-phone mr-1"
-                                                                            style="font-size: 22px"></span> +00 1234 567</a>
+                                                                            style="font-size: 22px"></span> +44 2031 310212</a>
                     <a href="#" style="font-size: 16px"><span class="fa fa-paper-plane mr-1 "
-                                                              style="font-size: 22px"></span> youremail@email.com</a>
+                                                                  style="font-size: 22px"></span> Fadoualegal@gmail.com</a>
                 </p>
             </div>
             <div class="col-md-3 d-flex align-items-center ">
@@ -61,8 +61,7 @@
                     <ul class="dropdown" id="drop" onclick="Drop()">
                         <li><a href="{{route('family-visa')}}" style="text-decoration: none!important;">Family Visas</a></li>
                         <li><a href="{{route('work-visa')}}" style="text-decoration: none !important;">Work Visas</a></li>
-                        <li><a href="{{route('service-details')}}" style="text-decoration: none!important;">Study Visas</a></li>
-                        <li><a href="{{route('service-details')}}" style="text-decoration: none!important;">Study Visas</a></li>
+                        <li><a href="{{route('study-visa')}}" style="text-decoration: none!important;">Study Visas</a></li>
                         <li><a href="{{route('service-details')}}" style="text-decoration: none!important;">Business Immigration</a></li>
                         <li><a href="{{route('service-details')}}" style="text-decoration: none!important;">UK Asylum</a></li>
                     </ul>
