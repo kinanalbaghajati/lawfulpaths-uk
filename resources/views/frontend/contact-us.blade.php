@@ -45,7 +45,7 @@
                                         <span class="fa fa-paper-plane " style="font-size: 40px;color: #f6c65e"></span>
                                     </div>
                                     <div class="text">
-                                        <p><span>Email:</span> <a href="mailto:info@yoursite.com">Fadoualegal@gmail.com</a></p>
+                                        <p><span>Email:</span> <a href="mailto:info@yoursite.com">Fadoua@lawfulpaths.co.uk</a></p>
                                     </div>
                                 </div>
                             </div>

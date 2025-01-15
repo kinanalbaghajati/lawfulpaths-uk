@@ -12,7 +12,7 @@
                     <a href="#" class="mr-4 " style="font-size: 16px"><span class="fa fa-phone mr-1"
                                                                             style="font-size: 22px"></span> +44 2031 310212</a>
                     <a href="#" style="font-size: 16px"><span class="fa fa-paper-plane mr-1 "
-                                                                  style="font-size: 22px"></span> Fadoualegal@gmail.com</a>
+                                                                  style="font-size: 22px"></span> Fadoua@lawfulpaths.co.uk</a>
                 </p>
             </div>
             <div class="col-md-3 d-flex align-items-center ">
