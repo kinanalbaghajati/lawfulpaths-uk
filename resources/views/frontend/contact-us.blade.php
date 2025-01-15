@@ -25,7 +25,7 @@
                                         <span class="fa fa-map-marker" style="font-size: 40px;color: #f6c65e"></span>
                                     </div>
                                     <div class="text">
-                                        <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+                                        <p><span>Address:</span> 25 North Row London W1K 6DJ</p>
                                     </div>
                                 </div>
                             </div>

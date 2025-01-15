@@ -8,9 +8,9 @@
             <div class="row no-gutters slider-text align-items-end justify-content-center">
                 <div class="col-md-9 ftco-animate mb-5 text-center">
                     <p class="breadcrumbs mb-0"><span class="mr-2"><a href="index.html">Services <i
-                                    class="fa fa-chevron-right"></i></a></span> <span>Work Visa <i
+                                    class="fa fa-chevron-right"></i></a></span> <span>Asylum <i
                                 class="fa fa-chevron-right"></i></span></p>
-                    <h1 class="mb-0 bread" style="color: whitesmoke !important;">Work Visa</h1>
+                    <h1 class="mb-0 bread" style="color: whitesmoke !important;">Asylum</h1>
                 </div>
             </div>
         </div>
@@ -103,94 +103,94 @@
 
         </div>
 
-        <div class="row mx-5">
+        <div class="row px-5">
 
-                <div class="container-fluid py-3 mt-4 ml-4 shadow rounded px-4 " style="border:3px solid #1d3f73!important;">
-                    <h2 style="color: #d7a742 !important;" class="px-4 pb-2">Our Work Visa Services</h2>
-                    <div class="d-flex">
-                        <div class="col">
-                            <h5 class="pt-2 px-4 pb-2 " style=" font-family: PT Sans, sans-serif;">We
-                                provide end-to-end assistance tailored to meet your unique needs. Here’s how we can
-                                help:</h5>
-                            <div class="row px-4">
-                                <div class="col-md-6">
-                                    <ul>
-                                        <li class="py-2"><h5>Eligibility Assessment:</h5>
-                                            <ul>
-                                                <li>Evaluate your profile based on skills, qualifications, and work
-                                                    experience.
-                                                </li>
-                                                <li>Match your expertise with the visa requirements.</li>
-                                                <li>Provide a clear roadmap for your visa application.</li>
-                                            </ul>
-                                        </li>
-                                        <li class="py-2"><h5>Documentation Guidance</h5>
-                                            <ul>
-                                                <li>Assist you in compiling essential documents, including proof of
-                                                    employment, qualifications, and financial stability.
-                                                </li>
-                                                <li>Ensure accuracy and compliance with immigration guidelines to avoid
-                                                    rejections.
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="py-2"><h5>Application Filing</h5>
-                                            <ul>
-                                                <li>Prepare and submit your visa application accurately.
-                                                </li>
-                                                <li>Handle forms, employer sponsorship details, and specific
-                                                    requirements.
-                                                </li>
-                                                <li>Track your application status and provide timely updates.
-                                                </li>
-                                            </ul>
-                                        </li>
+            <div class="container-fluid py-5 mt-4 shadow " style="border:3px solid #1d3f73!important;">
+                <h2 style="color: #d7a742 !important;" class="px-4 pb-2">Our Work Visa Services</h2>
+                <div class="d-flex">
+                    <div class="col">
+                        <h5 class="pt-2 px-4 pb-2 " style=" font-family: PT Sans, sans-serif;">We
+                            provide end-to-end assistance tailored to meet your unique needs. Here’s how we can
+                            help:</h5>
+                        <div class="row px-4">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li class="py-2"><h5>Eligibility Assessment:</h5>
+                                        <ul>
+                                            <li>Evaluate your profile based on skills, qualifications, and work
+                                                experience.
+                                            </li>
+                                            <li>Match your expertise with the visa requirements.</li>
+                                            <li>Provide a clear roadmap for your visa application.</li>
+                                        </ul>
+                                    </li>
+                                    <li class="py-2"><h5>Documentation Guidance</h5>
+                                        <ul>
+                                            <li>Assist you in compiling essential documents, including proof of
+                                                employment, qualifications, and financial stability.
+                                            </li>
+                                            <li>Ensure accuracy and compliance with immigration guidelines to avoid
+                                                rejections.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="py-2"><h5>Application Filing</h5>
+                                        <ul>
+                                            <li>Prepare and submit your visa application accurately.
+                                            </li>
+                                            <li>Handle forms, employer sponsorship details, and specific
+                                                requirements.
+                                            </li>
+                                            <li>Track your application status and provide timely updates.
+                                            </li>
+                                        </ul>
+                                    </li>
 
-                                    </ul>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul>
-                                        <li class="py-2"><h5>Employer Support:</h5>
-                                            <ul>
-                                                <li>Prepare and submit your visa application accurately.
-                                                </li>
-                                                <li>Handle forms, employer sponsorship details, and specific
-                                                    requirements.
-                                                </li>
-                                                <li>Track your application status and provide timely updates.</li>
-                                            </ul>
-                                        </li>
-                                        <li class="py-2"><h5>Interview Preparation</h5>
-                                            <ul>
-                                                <li>Provide personalized coaching for embassy interviews, focusing on
-                                                    confidence and clarity.
-                                                </li>
-                                                <li>Share insights on frequently asked questions and how to present your
-                                                    case effectively.
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="py-2"><h5>Visa Renewal and Extensions</h5>
-                                            <ul>
-                                                <li>Help you with renewing or extending your work visa before expiry
-                                                </li>
-                                                <li>Ensure smooth transitions to avoid legal complications or work
-                                                    disruptions.
-                                                </li>
-                                                <li>Track your application status and provide timely updates.
-                                                </li>
-                                            </ul>
-                                        </li>
-
-                                    </ul>
-                                </div>
-
-
+                                </ul>
                             </div>
+                            <div class="col-md-6">
+                                <ul>
+                                    <li class="py-2"><h5>Employer Support:</h5>
+                                        <ul>
+                                            <li>Prepare and submit your visa application accurately.
+                                            </li>
+                                            <li>Handle forms, employer sponsorship details, and specific
+                                                requirements.
+                                            </li>
+                                            <li>Track your application status and provide timely updates.</li>
+                                        </ul>
+                                    </li>
+                                    <li class="py-2"><h5>Interview Preparation</h5>
+                                        <ul>
+                                            <li>Provide personalized coaching for embassy interviews, focusing on
+                                                confidence and clarity.
+                                            </li>
+                                            <li>Share insights on frequently asked questions and how to present your
+                                                case effectively.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="py-2"><h5>Visa Renewal and Extensions</h5>
+                                        <ul>
+                                            <li>Help you with renewing or extending your work visa before expiry
+                                            </li>
+                                            <li>Ensure smooth transitions to avoid legal complications or work
+                                                disruptions.
+                                            </li>
+                                            <li>Track your application status and provide timely updates.
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
 
 

@@ -62,8 +62,8 @@
                         <li><a href="{{route('family-visa')}}" style="text-decoration: none!important;">Family Visas</a></li>
                         <li><a href="{{route('work-visa')}}" style="text-decoration: none !important;">Work Visas</a></li>
                         <li><a href="{{route('study-visa')}}" style="text-decoration: none!important;">Study Visas</a></li>
-                        <li><a href="{{route('service-details')}}" style="text-decoration: none!important;">Business Immigration</a></li>
-                        <li><a href="{{route('service-details')}}" style="text-decoration: none!important;">UK Asylum</a></li>
+                        <li><a href="{{route('business-visa')}}" style="text-decoration: none!important;">Business Immigration</a></li>
+                        <li><a href="{{route('asylum')}}" style="text-decoration: none!important;">UK Asylum</a></li>
                     </ul>
                 </li>
 

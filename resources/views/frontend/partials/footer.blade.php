@@ -30,7 +30,7 @@
                 <div class="ftco-footer-widget mb-4">
                     <div class="block-23 mb-3">
                         <ul class="">
-                            <li><span class="icon fa fa-map marker"></span><span class="text">203 Fake St. Mountain View</span>
+                            <li><span class="icon fa fa-map marker"></span><span class="text"> 25 North Row London W1K 6DJ</span>
                             </li>
                             <li class="mt-3"><a href="#"><span class="icon fa fa-phone"></span><span
                                         class="text">+44 2031 310212</span></a></li>

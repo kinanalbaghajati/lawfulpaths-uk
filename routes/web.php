@@ -57,4 +57,10 @@ Route::get('/family-visa', function () {
 Route::get('/study-visa', function () {
     return view('frontend.services.study-visa');
 })->name('study-visa');
+Route::get('/business-visa', function () {
+    return view('frontend.services.business-visa');
+})->name('business-visa');
+Route::get('/asylum', function () {
+    return view('frontend.services.asylum');
+})->name('asylum');
 

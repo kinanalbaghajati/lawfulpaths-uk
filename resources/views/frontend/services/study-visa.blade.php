@@ -31,12 +31,12 @@
                     </div>
                     <div class="d-flex">
                         <div class="col px-4 pb-4">
-                            <h5>• A study visa is your gateway to pursuing world-class education in top institutions
+                            <h5 class="px-2">• A study visa is your gateway to pursuing world-class education in top institutions
                                 across
                                 the globe.
                                 It allows students to travel to another country for academic purposes, providing
                                 access to renowned universities, colleges, and schools.</h5>
-                            <h5>
+                            <h5 class="px-2">
                                 • Whether you’re aiming for
                                 undergraduate studies, postgraduate research, or short-term courses, a study visa is an
                                 essential step toward achieving your academic and career aspirations.
@@ -106,8 +106,8 @@
 
         </div>
 
-        <div class="row px-5">
-            <div class="col-md-12">
+        <div class="row mx-5">
+
                 {{--                style="border:3px solid #1d3f73!important;"--}}
                 <div class="container-fluid py-5 mt-4 shadow ml-4">
                     <h2 style="color: #d7a742 !important;" class="px-4 pb-2">Eligibility Requirements for a Study
@@ -178,11 +178,10 @@
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="row px-5">
-            <div class="col-md-12">
+        <div class="row mx-5">
+
                 <div class="container-fluid py-3 mt-4 ml-4 shadow rounded px-4"
                      style="border: 3px solid #d7a742;background-color: #d8ae56">
                     <h3 style="color: whitesmoke!important;">Who Needs a Study Visa? </h3>
@@ -220,10 +219,10 @@
 
             </div>
 
-        </div>
 
-        <div class="row px-5 ">
-            <div class="col-md-12 ">
+
+        <div class="row mx-5 ">
+
                 {{--                style="border:3px solid #1d3f73!important;"--}}
                 <div class="container-fluid py-4 mt-4 shadow ml-4" style="border:3px solid #1d3f73!important;">
                     <h2 style="color: #d7a742 !important;" class="px-4 pb-2">Common Challenges and How We Help:</h2>
@@ -275,8 +274,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-12 ">
+
+
                 {{--                style="border:3px solid #1d3f73!important;"--}}
                 <div class="container-fluid py-4 mt-4 shadow ml-4"  style="border:3px solid #d7a742!important;">
                     <h2 style="color: #d7a742 !important;" class="px-4 pb-2">Documents We Help You Prepare:</h2>
@@ -319,12 +318,14 @@
                         </div>
                     </div>
                 </div>
-            </div>
+
         </div>
 
 
 
     </section>
+
+
     <div>
         <div class="container py-4 mt-1   rounded">
             <section class="cta mb-5 shadow-lg rounded " style="background: url('{{asset('frontend/icons-images/cta.jpg')}}') center/cover no-repeat;">
