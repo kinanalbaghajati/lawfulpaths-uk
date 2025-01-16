@@ -106,6 +106,68 @@
         <div class="row mx-5">
             {{--                style="border:3px solid #1d3f73!important;"--}}
             <div class="container-fluid py-5 mt-4 shadow ml-4">
+                <h2 style="color: #d7a742 !important;" class="px-4 pb-2">Eligibility Requirements for UK Business
+                    Visas:</h2>
+                <div class="d-flex">
+                    <div class="col">
+                        <h5 class="pt-2 px-4 pb-2 " style=" font-family: PT Sans, sans-serif;">While each visa has
+                            its unique requirements, common criteria include:</h5>
+                        <div class="row px-3">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li class="py-2"><h5>Endorsement:</h5>
+                                        <ul>
+                                            <li>For Innovator and Start-Up visas, you need approval from an
+                                                endorsing body recognized by the UK government.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="py-2"><h5>Financial Resources</h5>
+                                        <ul>
+                                            <li>Depending on the visa type, proof of personal and investment funds
+                                                may be required.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="py-2"><h5>Business Plan</h5>
+                                        <ul>
+                                            <li>A detailed and credible business plan showcasing innovation,
+                                                scalability, and economic viability.
+                                            </li>
+
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-6 pl-5">
+                                <ul>
+                                    <li class="py-2"><h5>English Language Proficiency:</h5>
+                                        <ul>
+                                            <li>Applicants must meet the required English language standards.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="py-2"><h5>Other Documentation</h5>
+                                        <ul>
+                                            <li>Valid passport and travel history.
+                                            </li>
+                                            <li>Evidence of business experience and financial standing.
+                                            </li>
+                                        </ul>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-5">
+            {{--                style="border:3px solid #1d3f73!important;"--}}
+            <div class="container-fluid py-5 mt-4 shadow ml-4">
                 <h2 style="color: #d7a742 !important;" class="px-4 pb-2">Types of UK Business Visas:</h2>
                 <div class="d-flex">
                     <div class="col">
@@ -229,68 +291,6 @@
                             </div>
 
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mx-5">
-            {{--                style="border:3px solid #1d3f73!important;"--}}
-            <div class="container-fluid py-5 mt-4 shadow ml-4">
-                <h2 style="color: #d7a742 !important;" class="px-4 pb-2">Eligibility Requirements for UK Business
-                    Visas:</h2>
-                <div class="d-flex">
-                    <div class="col">
-                        <h5 class="pt-2 px-4 pb-2 " style=" font-family: PT Sans, sans-serif;">While each visa has
-                            its unique requirements, common criteria include:</h5>
-                        <div class="row px-3">
-                            <div class="col-md-6">
-                                <ul>
-                                    <li class="py-2"><h5>Endorsement:</h5>
-                                        <ul>
-                                            <li>For Innovator and Start-Up visas, you need approval from an
-                                                endorsing body recognized by the UK government.
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="py-2"><h5>Financial Resources</h5>
-                                        <ul>
-                                            <li>Depending on the visa type, proof of personal and investment funds
-                                                may be required.
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="py-2"><h5>Business Plan</h5>
-                                        <ul>
-                                            <li>A detailed and credible business plan showcasing innovation,
-                                                scalability, and economic viability.
-                                            </li>
-
-                                        </ul>
-                                    </li>
-
-                                </ul>
-                            </div>
-                            <div class="col-md-6 pl-5">
-                                <ul>
-                                    <li class="py-2"><h5>English Language Proficiency:</h5>
-                                        <ul>
-                                            <li>Applicants must meet the required English language standards.
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="py-2"><h5>Other Documentation</h5>
-                                        <ul>
-                                            <li>Valid passport and travel history.
-                                            </li>
-                                            <li>Evidence of business experience and financial standing.
-                                            </li>
-                                        </ul>
-                                    </li>
-
-
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </div>
