@@ -64,3 +64,11 @@ Route::get('/asylum', function () {
     return view('frontend.services.asylum');
 })->name('asylum');
 
+//---------------------------
+
+Route::fallback(function () {
+    return view('errors.404');
+});
+
+Route::post('contact/mail/send', [\App\Http\Controllers\Front\FrontendController::class, 'sendMail'])->name('contact.mail');
+
