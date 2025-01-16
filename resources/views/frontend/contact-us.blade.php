@@ -114,7 +114,27 @@
 
 
     <script src="{{asset('frontend/js/scrollax.min.js')}}"></script>
-    <script src="https://maps.google.com/maps/api/js?key=AIzaSyCtSAR45TFgZjOs4nBFFZnII-6mMHLfSYI"></script>
+    <script>
+        var map;
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat:51.51422973895267 , lng: -0.15588683294805045 },
+                zoom: 8
+
+
+            });
+            const marker = new google.maps.Marker({
+                position: {lat:51.51422973895267 , lng: -0.15588683294805045 },
+                map: map,
+                title: "Marker Title",
+            });
+
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/somanchiu/Keyless-Google-Maps-API@v6.8/mapsJavaScriptAPI.js" async defer></script>
+
+
+{{--    <script src="https://maps.google.com/maps/api/js?key=AIzaSyCtSAR45TFgZjOs4nBFFZnII-6mMHLfSYI"></script>--}}
     <script src="{{asset('frontend/js/google-map.js')}}"></script>
     <script src="{{asset('frontend/js/main.js')}}"></script>
 
