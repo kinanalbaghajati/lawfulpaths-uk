@@ -34,7 +34,7 @@
                             </li>
                             <li class="mt-3"><a href="#"><span class="icon fa fa-phone"></span><span
                                         class="text">+44 2031 310212</span></a></li>
-                            <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">Fadoua@lawfulpaths.co.uk</span></a>
+                            <li><a  href="mailto:Fadoua@lawfulpaths.co.uk" ><span class="icon fa fa-paper-plane pr-4"></span><span class="text">Fadoua@lawfulpaths.co.uk</span></a>
                             </li>
                         </ul>
                     </div>

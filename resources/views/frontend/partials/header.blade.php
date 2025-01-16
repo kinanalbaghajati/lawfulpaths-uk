@@ -10,9 +10,11 @@
             <div class="col-md-5 d-flex align-items-center">
                 <p class="mb-0 phone pl-md-2">
                     <a href="#" class="mr-4 " style="font-size: 16px"><span class="fa fa-phone mr-1"
-                                                                            style="font-size: 22px"></span> +44 2031 310212</a>
-                    <a href="#" style="font-size: 16px"><span class="fa fa-paper-plane mr-1 "
-                                                                  style="font-size: 22px"></span> Fadoua@lawfulpaths.co.uk</a>
+                                                                            style="font-size: 22px"></span> +44 2031
+                        310212</a>
+                    <a href="mailto:Fadoua@lawfulpaths.co.uk" style="font-size: 16px"><span
+                            class="fa fa-paper-plane mr-1 "
+                            style="font-size: 22px"></span> Fadoua@lawfulpaths.co.uk</a>
                 </p>
             </div>
             <div class="col-md-3 d-flex align-items-center ">
@@ -52,26 +54,44 @@
 
         <div class="collapse navbar-collapse" style="background-color: #17243E !important;" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item @if($route == 'home') active @endif"><a href="{{route('home')}}" class="nav-link" style="text-decoration: none!important;">Home</a></li>
-                <li class="nav-item hover-item @if($route == 'work-visa' || $route == 'family-visa') active @endif" onclick="drop()">
+                <li class="nav-item @if($route == 'home') active @endif"><a href="{{route('home')}}" class="nav-link"
+                                                                            style="text-decoration: none!important;">Home</a>
+                </li>
+                <li class="nav-item hover-item @if($route == 'work-visa' || $route == 'family-visa') active @endif"
+                    onclick="drop()">
                     <a href="#" class="nav-link " style="position: relative;text-decoration: none!important;">
                         <span>Get My Visa</span>
                     </a>
 
                     <ul class="dropdown" id="drop" onclick="Drop()">
-                        <li><a href="{{route('family-visa')}}" style="text-decoration: none!important;">Family Visas</a></li>
-                        <li><a href="{{route('work-visa')}}" style="text-decoration: none !important;">Work Visas</a></li>
-                        <li><a href="{{route('study-visa')}}" style="text-decoration: none!important;">Study Visas</a></li>
-                        <li><a href="{{route('business-visa')}}" style="text-decoration: none!important;">Business Visas</a></li>
+                        <li><a href="{{route('family-visa')}}" style="text-decoration: none!important;">Family Visas</a>
+                        </li>
+                        <li><a href="{{route('work-visa')}}" style="text-decoration: none !important;">Work Visas</a>
+                        </li>
+                        <li><a href="{{route('study-visa')}}" style="text-decoration: none!important;">Study Visas</a>
+                        </li>
+                        <li><a href="{{route('business-visa')}}" style="text-decoration: none!important;">Business
+                                Visas</a></li>
                         <li><a href="{{route('asylum')}}" style="text-decoration: none!important;">UK Asylum</a></li>
                     </ul>
                 </li>
 
-                <li class="nav-item @if($route == 'success-stories') active @endif"><a href="{{route('success-stories')}}" class="nav-link" style="text-decoration: none!important;">Success Stories</a></li>
-                <li class="nav-item @if($route == 'blog') active @endif"><a href="{{route('blog')}}" class="nav-link" style="text-decoration: none!important;">Blog</a></li>
-                <li class="nav-item dropdown-submenu @if($route == 'about-us') active @endif"><a href="{{route('about-us')}}" class="nav-link" style="text-decoration: none!important;">About Us</a></li>
-                <li class="nav-item @if($route == 'faq') active @endif"><a href="{{route('faq')}}" class="nav-link" style="text-decoration: none!important;">FAQ</a></li>
-                <li class="nav-item @if($route == 'contact-us') active @endif" ><a href="{{route('contact-us')}}" class="nav-link" style="text-decoration: none!important;">Contact Us</a></li>
+                <li class="nav-item @if($route == 'success-stories') active @endif"><a
+                        href="{{route('success-stories')}}" class="nav-link" style="text-decoration: none!important;">Success
+                        Stories</a></li>
+                <li class="nav-item @if($route == 'blog') active @endif"><a href="{{route('blog')}}" class="nav-link"
+                                                                            style="text-decoration: none!important;">Blog</a>
+                </li>
+                <li class="nav-item dropdown-submenu @if($route == 'about-us') active @endif"><a
+                        href="{{route('about-us')}}" class="nav-link" style="text-decoration: none!important;">About
+                        Us</a></li>
+                <li class="nav-item @if($route == 'faq') active @endif"><a href="{{route('faq')}}" class="nav-link"
+                                                                           style="text-decoration: none!important;">FAQ</a>
+                </li>
+                <li class="nav-item @if($route == 'contact-us') active @endif"><a href="{{route('contact-us')}}"
+                                                                                  class="nav-link"
+                                                                                  style="text-decoration: none!important;">Contact
+                        Us</a></li>
 
 
             </ul>
