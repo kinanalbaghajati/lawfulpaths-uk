@@ -68,7 +68,7 @@
                             <div class="col-md-7" >
                                 <div class="contact-wrap w-100 p-md-5 p-4  shadow-lg">
                                     <h2 class="mb-4">Contact Us</h2>
-                                    <form id="contactForm" name="contactForm" class="contactForm"  method="post" action="{{route('contact.mail')}}">
+                                    <form  method="post" action="{{route('contact.mail')}}">
                                         @csrf
                                         <div class="row">
                                             <div class="col-md-6">

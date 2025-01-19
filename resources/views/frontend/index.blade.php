@@ -240,9 +240,114 @@
         </div>
     </section>
 
-     @include('frontend.partials.cta')
+    <section class="ftco-appointment ftco-section img" style="background-image: url({{asset('frontend/images/bg_2.jpg')}});margin-bottom: 40px" id="home-contactus">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 pr-md-5">
+                    <div class="heading-section heading-section-white">
+                        <h2 class="mb-5" style="color:whitesmoke !important;">We Have Great Results</h2>
+
+                        <div class="row mt-md-5">
+                            <div class="col-lg-12">
+                                <div class="services d-flex w-100">
+
+                                    <div class="mini-icon d-flex align-items-center justify-content-center mb-4" >
+                                        <img src="{{asset('frontend/icons-images/customer-journey.png')}}" width="60" height="60">
+                                    </div>
+
+                                    <div class="text pl-3">
+                                        <h2 style="color:whitesmoke !important;">Guaranteed Results</h2>
+                                        <p style="color:lightgrey">Ensuring outcomes that exceed expectations through our dedicated efforts and expertise.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="services d-flex w-100">
+                                    <div class="mini-icon d-flex align-items-center justify-content-center mb-4">
+                                        <img src="{{asset('frontend/icons-images/expert-team.png')}}" width="60" height="60">
+                                    </div>
+
+                                    <div class="text pl-3">
+                                        <h2 style="color:whitesmoke !important;">Best Team</h2>
+                                        <p style="color:lightgrey !important;">Our exceptional group of professionals dedicated to delivering top-tier service and results.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 half ftco-animate">
+                    <h2 class="mb-4" style="color:whitesmoke !important;">Free Consultation</h2>
+                    <form class="appointment"  method="post" action="{{route('contact.mail.index')}}">
+                        @csrf
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name" name="name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Email" name="email" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="subject" name="subject" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                <textarea name="message" id="" cols="30" rows="7" class="form-control"
+                                          placeholder="Message" required></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="submit" value="Send message" class="btn btn-primary py-3 px-4" onclick="loadingBtn(this)">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                @if(session()->has('message_danger'))
+                                    <div class="alert align-center">
+                                        <p style="color: red;font-size: 14px!important;padding: 8px!important; background-color:whitesmoke;border-radius: 4px">{{ session()->get('message_danger') }}</p>
+                                    </div>
+                                @endif
+                                @if(session()->has('message_suc'))
+                                    <div class="alert align-center">
+                                        <p style="color: green;font-size: 14px!important;padding: 8px!important; background-color:whitesmoke;border-radius: 4px">{{ session()->get('message_suc') }}</p>
+                                    </div>
+                                @endif.
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
      @include('frontend.partials.blog')
 
+
+    <script>
+        function loadingBtn(element) {
+            if (element.tagName.toLowerCase() == "button") {
+                event.target.form.submit();
+                element.disabled = true;
+                element.innerHTML = '<span class="spinner-border spinner-border-sm me-1" role="status" aria-hidden="true"></span> Loading...';
+                element.setAttribute('type', 'button');
+            } else if (element.tagName.toLowerCase() == "a") {
+                element.disabled = true;
+                element.innerHTML = '<span class="spinner-border spinner-border-sm me-1" role="status" aria-hidden="true"></span> Loading...';
+            } else if (element.tagName.toLowerCase() == "input") {
+                element.disabled = true;
+                element.value = 'Loading...';
+                event.target.form.submit();
+            }
+        }
+
+    </script>
 @endsection
 

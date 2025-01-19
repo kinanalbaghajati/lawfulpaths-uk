@@ -8,21 +8,21 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
-use Illuminate\Mail\Mailables\Address;
 
-class ContactMail extends Mailable
+class ContactUsMail extends Mailable
 {
-    use Queueable;
+    use Queueable, SerializesModels;
 
     /**
      * Create a new message instance.
      */
-    public  $data;
+
+    public $data;
+
     public function __construct($data)
     {
         $this->data = $data;
     }
-
 
     /**
      * Get the message envelope.
@@ -30,11 +30,10 @@ class ContactMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            from:  new Address($this->data['email'], $this->data['name']),
-            subject: $this->data['subject'],
+            from:  'fadoua@lawfulpaths.co.uk',
+            subject: 'Contact Us Mail',
         );
     }
-
 
     /**
      * Get the message content definition.
@@ -46,7 +45,6 @@ class ContactMail extends Mailable
             with: $this->data
         );
     }
-
 
     /**
      * Get the attachments for the message.

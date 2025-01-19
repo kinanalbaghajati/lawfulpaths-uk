@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Front\FrontendController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -70,5 +71,6 @@ Route::fallback(function () {
     return view('errors.404');
 });
 
-Route::post('contact/mail/send', [\App\Http\Controllers\Front\FrontendController::class, 'sendMail'])->name('contact.mail');
+Route::post('contact-us/mail/send', [FrontendController::class, 'sendMail'])->name('contact.mail');
+Route::post('contact-index/mail/send', [FrontendController::class, 'sendMailIndex'])->name('contact.mail.index');
 
