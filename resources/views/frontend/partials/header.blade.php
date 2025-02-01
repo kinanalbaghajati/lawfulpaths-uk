@@ -8,13 +8,13 @@
     <div class="container ">
         <div class="row">
             <div class="col-md-5 d-flex align-items-center">
-                <p class="mb-0 phone pl-md-2">
-                    <a href="#" class="mr-4 " style="font-size: 16px"><span class="fa fa-phone mr-1"
+                <p class="mb-0 phone pl-md-2 p-sm-0 ">
+                    <a href="#" class="mr-md-4 mr-sm-0 " style="font-size: 16px"><span class="fa fa-phone mr-1"
                                                                             style="font-size: 22px"></span> +44 2031
                         310212</a>
-                    <a href="mailto:Fadoua@lawfulpaths.co.uk" style="font-size: 16px"><span
+                    <a href="mailto:Info@lawfulpaths.co.uk" style="font-size: 16px"><span
                             class="fa fa-paper-plane mr-1 "
-                            style="font-size: 22px"></span> Fadoua@lawfulpaths.co.uk</a>
+                            style="font-size: 22px"></span> Info@lawfulpaths.co.uk</a>
                 </p>
             </div>
             <div class="col-md-3 d-flex align-items-center ">
