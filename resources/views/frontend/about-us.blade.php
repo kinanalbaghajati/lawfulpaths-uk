@@ -60,7 +60,36 @@
             </div>
         </div>
     </section>
-    <section class="ftco-section ftco-no-pb ftco-no-pt">
+
+<scetion class="py-5">
+    <container class="container-fluid">
+    <div class="row no-gutters px-5 justify-content-center">
+    <div class="col-md-9 d-flex">
+        <div class="card d-lg-flex w-100 border-0 border-radius-0 mb-3 shadow" style="background-color: #163057FF;">
+            <div class="d-flex flex-column flex-md-row align-items-center">
+                <!-- Larger Image/Icon -->
+                <div class="icon p-4">
+                    <img src="{{asset('frontend/logo/logo-title.png')}}" width="150" height="155">
+                </div>
+                <div class="card-body z-index-1">
+                    <div class="card-body p-0">
+                        <h3 class="card-title" style="line-height: 42px; color: whitesmoke!important; font-size: 24px;">
+                            At Eurolegal, we specialize in providing expert immigration advice and casework services.
+                        </h3>
+                        <h2 class="card-title " style="line-height: 42px; color: whitesmoke!important; font-size: 24px;">
+                        <span style="font-weight: bold; color: #e5b856; background-color: rgba(255, 215, 0, 0.2); padding: 2px 5px; border-radius: 3px;">Fadoua Rhalmi</span>, an experienced immigration adviser and caseworker with over 10 years of expertise, collaborates with a team of skilled solicitors to provide professional and reliable guidance through complex immigration processes.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </container>
+
+</section>
+
+    <section class="ftco-section ftco-no-pb ftco-no-pt ">
         <div class="container" >
             <div class="row no-gutters">
                 <div class="col-md-6 d-flex align-items-stretch shadow">
@@ -85,7 +114,7 @@
                             <div class="col-lg-12">
                                 <div class="services d-flex w-100">
                                     <div class="icon d-flex align-items-center justify-content-center">
-                                        <img src="{{asset('frontend/icons-images/needs.png')}}" width="50" height="50">
+                                        <span class="flaticon-lawyer" style="font-size: 46px"></span>
                                     </div>
                                     <div class="text pl-2">
                                         <h2>Understand Your Needs</h2>
@@ -100,21 +129,21 @@
                                         <img src="{{asset('frontend/icons-images/case.png')}}" width="50" height="50">
                                     </div>
                                     <div class="text pl-2">
-                                        <h2>Comprehensive Case Review</h2>
-                                        <p>Our Immigration Associates will analyze your case, addressing any gaps and
-                                            inconsistencies through our step-by-step process.</p>
+                                        <h2>Highlights Key Achievement</h2>
+                                        <p>With a proven track record of success—boasting a 98% approval rate—we take pride in delivering effective solutions tailored to our clients’ needs. Our mission is to ensure a smooth and stress-free immigration journey, whether for individuals, families, or businesses.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="services d-flex w-100">
                                     <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="flaticon-lawyer" style="font-size: 46px"></span>
+                                        <img src="{{asset('frontend/icons-images/needs.png')}}" width="50" height="50">
                                     </div>
+                                    
                                     <div class="text pl-2">
-                                        <h2>Move Forward with Confidence</h2>
-                                        <p>Trust our experts to guide you every step of the way, ensuring your
-                                            immigration challenges are handled with professionalism and care.</p>
+                                        <h2>Expanding Horizons</h2>
+                                        <p>We are also actively expanding our network by building strong relationships with partners in the Middle East, broadening opportunities for those seeking to relocate or establish new ventures abroad                                        .</p>
                                     </div>
                                 </div>
                             </div>
@@ -198,7 +227,7 @@
                         <div class="card border-0 border-radius-0 mb-3 shadow " style="background-color: #163057FF ">
                             <div class="card-body  z-index-1">
                                 <div class="card-body p-0">
-                                    <h3 class="card-title " style="line-height: 42px;color: whitesmoke!important;font-size: 24px"> At EuroLegale , we’re committed to turning complex immigration processes into stress-free journeys &nbsp; Let’s get started today!</h3></h4>
+                                    <h3 class="card-title " style="line-height: 42px;color: whitesmoke!important;font-size: 24px"> With dedication, expertise, and a client-first approach, we strive to be your trusted partner in achieving your immigration goals.</h3></h4>
                                 </div>
                             </div>
                         </div>

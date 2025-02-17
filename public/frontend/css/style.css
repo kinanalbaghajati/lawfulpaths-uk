@@ -14481,6 +14481,7 @@ ul::-webkit-scrollbar-thumb:hover {
     .logo-img-mobile
     {
         display: block;
+        margin-top: 12px;
     }
     .logo-img
     {

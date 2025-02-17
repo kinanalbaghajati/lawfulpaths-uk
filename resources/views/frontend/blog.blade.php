@@ -97,8 +97,8 @@
             <ul class="pagination pagination-rounded pagination-lg justify-content-center">
                 <li class="page-item"><a class="page-link" href="#"><i class="fa fa-arrow-left"></i></a></li>
                 <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                {{-- <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li> --}}
                 <li class="page-item"><a class="page-link" href="#"><i class="fa fa-arrow-right"></i></a></li>
             </ul>
 
@@ -126,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="block-21 mb-4 d-flex">
+                {{-- <div class="block-21 mb-4 d-flex">
                     <a class="blog-img mr-4" style="background-image: url({{asset('frontend/images/image_3.jpg')}});"></a>
                     <div class="text">
                         <h3 class="heading"><a href="#">Even the all-powerful Pointing</a></h3>
@@ -135,8 +135,8 @@
                             <div><a href="#"><span class="fa fa-user"></span> Admin</a></div>
                         </div>
                     </div>
-                </div>
-            <div class="block-21 mb-4 d-flex">
+                </div> --}}
+            {{-- <div class="block-21 mb-4 d-flex">
                 <a class="blog-img mr-4" style="background-image: url({{asset('frontend/images/image_3.jpg')}});"></a>
                 <div class="text">
                     <h3 class="heading"><a href="#">Even the all-powerful Pointing</a></h3>
@@ -146,7 +146,7 @@
 
                     </div>
                 </div>
-            </div>
+            </div> --}}
             </div>
         </div>
 
